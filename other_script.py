@@ -7,7 +7,6 @@ from selenium.webdriver.support import expected_conditions as EC
 
 from time import sleep
 
-#rad layn3al t***** *** 
 driver = webdriver.Chrome()
 driver.get('https://www.google.com')
 
@@ -42,7 +41,7 @@ while True:
         write_flag = 1
     sleep(1)
     if write_flag == 1:
-        option = input("Deleting what u write Please Press \n[1] delete \n[2 to enter\n\n :]")
+        option = input("for Deleting Please Press \n[1] delete \n[2 to enter\n\n :]")
         if (option == '1'):
             for_delet(Id_find)
             check = input("Wanna re write somthing ?? [yes] or [No]")
