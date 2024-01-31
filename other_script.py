@@ -7,6 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 from time import sleep
 
+#rad layn3al t***** *** 
 driver = webdriver.Chrome()
 driver.get('https://www.google.com')
 
